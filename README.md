@@ -11,7 +11,7 @@ import org.joda.time.*;
 ```
 Please make sure to download the latest version from http://www.joda.org/joda-time/ and copy it to your class path.
 
-###Using the utility
+###Configuring the Utility
 
 Application configuration is stored in a file called config.properties. This file contains the following configration,
 
@@ -28,3 +28,7 @@ You have following opitons avaiable for clean_up_after_unit variable.
 * HOURS
 * DAYS
 * MONTHS
+
+##Running the Utility
+
+Run the utility from the commandline or schedule a task to run it. This can be archived by using Cron jobs on Unix and Task Schedular on Windows.

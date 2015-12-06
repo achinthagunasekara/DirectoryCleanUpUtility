@@ -17,6 +17,8 @@ Application configuration is stored in a file called config.properties. This fil
 
 ###Configuration File Contents
 
+Alter the configation file to meet your needs. Please refer to the section below for more information on each item on the configation.
+
 ```properties
 directory=/Users/archieg/Documents/TEST
 clean_up_after_unit=MINUTES

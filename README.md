@@ -11,6 +11,14 @@ import org.joda.time.*;
 ```
 Please make sure to download the latest version from http://www.joda.org/joda-time/ and copy it to your class path.
 
+```java
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+```
+Please make sure to download the latest version from https://commons.apache.org/proper/commons-logging/ and copy it to your class path.
+
+I have included the versions I've used under the libs directory, but there might be more uptodate versions available.
+
 ##Configuring the Utility
 
 Application configuration is stored in a file called config.properties. This file contains the following configration,

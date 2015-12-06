@@ -27,11 +27,12 @@ dry_run=true
 
 ###Configuration File Explanied
 
-directory=/Users/archieg/Documents/TEST #Directory to clean up
-clean_up_after_unit=MINUTES #Clean up after unit
-clean_up_after_value=1 #Delete any files older than this many untis (clean_up_after_unit)
-data_file=data.dat #Database to store history of the directory
-dry_run=true #Test mode, only print the output, no files will be deleted
+| Configuration Value | Value Useage |
+| directory | Directory to clean up |
+| clean_up_after_unit | Clean up after unit |
+| clean_up_after_value | Delete any files older than this many untis (clean_up_after_unit) |
+| data_file | Database to store history of the directory |
+| dry_run | Test mode, only print the output, no files will be deleted |
 
 You have following opitons avaiable for clean_up_after_unit variable.
 * MINUTES
